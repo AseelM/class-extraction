@@ -1,7 +1,7 @@
 class Storage
-  PASSENGER_LIMIT_DEFAULT = 4
-  
-  def initialize(limit = PASSENGER_LIMIT_DEFAULT)
+  LIMIT_DEFAULT = 4
+
+  def initialize(limit = LIMIT_DEFAULT)
     @limit = limit
     @items = []
   end
